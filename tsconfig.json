@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"declarationMap": true,
+		"declarationDir": "./build/types",
+		"target": "es5",
+		"lib": ["es6", "dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"outDir": "build",
+		"rootDir": "src",
+		"strict": true,
+		"noImplicitAny": true,
+		"esModuleInterop": true,
+		"module": "esnext",
+		"types": ["node"]
+	},
+
+	"include": ["src/**/*"],
+
+	"exclude": ["node_modules"],
+	"typesVersions": {
+		"*": "build/types/index.d.ts"
+	}
+}
