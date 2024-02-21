@@ -11,8 +11,7 @@
 		"strict": true,
 		"noImplicitAny": true,
 		"esModuleInterop": true,
-		"module": "esnext",
-		"types": ["node"]
+		"module": "esnext"
 	},
 
 	"include": ["src/**/*"],
