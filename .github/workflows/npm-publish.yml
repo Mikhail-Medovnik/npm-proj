@@ -22,15 +22,3 @@ jobs:
           scope: '@medovnik'
       - name: Install dependencies
         run: yarn
-      - name: Run typecheck
-        run: npm run typecheck
-      - name: Run linter
-        run: npm run lint
-      - name: Run prettier
-        run: npm run prettier:check
-      - name: Run build
-        run: npm run build
-      - name: Publish npm
-        run: npm publish
-      - env:
-          NPM_TOKEN: ${{ secrets.NPM_DEPLOY }}
