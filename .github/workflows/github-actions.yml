@@ -3,7 +3,7 @@ name: Pull request workflow
 on:
   pull_request:
     branches:
-      - 'main'
+      - '**'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.number || github.sha }}
