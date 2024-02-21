@@ -1,6 +1,6 @@
 {
 	"name": "@medovnik/npm-proj",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"main": "index.js",
 	"module": "./build/bundle.mjs",
 	"license": "MIT",
